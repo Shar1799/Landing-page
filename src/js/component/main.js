@@ -3,6 +3,7 @@ import { Navbar } from "./navbar";
 import { Jumbotron } from "./jumbotron.js";
 import { Card } from "./card.js";
 import { Card2 } from "./card.js";
+import { Footer } from "./footer";
 
 export function Main() {
 	return (
@@ -23,6 +24,7 @@ export function Main() {
 					<Card2 />
 				</div>
 			</div>
+			<Footer />
 		</div>
 	);
 }
